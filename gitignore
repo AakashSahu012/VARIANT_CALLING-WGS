@@ -1,0 +1,59 @@
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Reference genome and index files
+*.fai
+*.dict
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+*.fa
+*.fa.gz
+*.nhr
+*.nin
+*.nsq
+*.2bit
+
+# BAM/SAM/CRAM files
+*.bam
+*.bam.bai
+*.cram
+*.sam
+
+# VCF and related
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+
+# Logs and intermediate outputs
+*.log
+*.err
+*.out
+*.tmp
+*.idx
+*.recal
+*.table
+*.metrics
+*.tbi
+*.interval_list
+*.txt
+
+
+# Docker/Container stuff
+*.img
+*.sif
+*.sandbox
+
+# Jupyter, Python cache
+__pycache__/
+*.ipynb_checkpoints
+*.pyc
+# Misc
+*~
+
